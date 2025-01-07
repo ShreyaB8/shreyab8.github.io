@@ -3,16 +3,15 @@
     "name": "Shreyashri Biswas",
     "label": "Electrical and Computer Engineer",
     "image": "",
-    "email": "sbiswas2@andrew.cmu.edu",
-    "phone": "+1(412) 909-9766",
-    "url": "https://simplyshreya.in/",
-    "summary": "Master of Science in Electrical and Computer Engineering from Carnegie Mellon University with a strong background in machine learning, high-performance computing, and computer architectures. Passionate about developing efficient AI/ML systems and optimizing computer performance.",
+    "email": "shreyabw834@gmail.com, shreyashri.biswas@amd.com",
+    "url": "https://shreyab8.github.io",
+    "summary": "Passionate about developing efficient AI/ML systems and optimizing computer performance.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Pittsburgh",
+      "city": "Austin",
       "countryCode": "US",
-      "region": "Pennsylvania"
+      "region": "Texas"
     },
     "profiles": [
       {
@@ -25,21 +24,88 @@
   "work": [
     {
       "name": "AMD",
+      "position": "Machine Learning Engineer 2",
+      "url": "",
+      "startDate": "2024-02-19",
+      "endDate": "Present",
+      "summary": "Contributing to the advancement of ROCm software by participating in the development and optimization of AI models for GPU computing platforms. Skills: Deep Learning Acceleration · Computer Architecture · Machine Learning Systems",
+      "highlights": [
+        "Skills: Deep Learning Acceleration · Computer Architecture · Machine Learning Systems"
+      ]
+    },
+    {
+      "name": "CMU",
+      "position": "Graduate Research Assistant at Catalyst Lab",
+      "url": "",
+      "startDate": "2023-1-1",
+      "endDate": "2024-1-1",
+      "summary": "Accelerating LLM inference through the speculative decoding process. Implementing a teacher-student model to propose candidate sequences for the large model to verify",
+      "highlights": [ 
+        "Achieving 2X-3X speedup without altering outputs, by parallelizing token computation", 
+        "Engineered a compiler system for deep learning graph optimization and op-fusion targeting mobile backends with heterogeneous computer architecture.",
+        "Implemented a kernel mapping strategy leveraging TVM and TASO, enhancing performance",
+        "Skills: Compiler Optimization · Deep Learning Acceleration · TVM · CUDA · Android NDK"
+      ]
+    },
+    {
+      "name": "CMU",
+      "position": "Graduate Research Assistant at Speed Lab",
+      "url": "",
+      "startDate": "2023-2-1",
+      "endDate": "2023-5-15",
+      "summary": "Designed high performant hardware aware CPU and GPU kernels for Computer Vision algorithms",
+      "highlights": [ 
+        "Leveraged performance engineering techniques like instruction pipelining, tiling, memory optimization, vectorizing, occupancy optimization to maximize hardware utilization", 
+        "Achieving 17% speedup benchmarked against OpenCV C++ kernel",
+        "Skills: C++ · SIMD · Deep Learning Acceleration · Computer Vision · Computer Architecture"]
+    },
+    {
+      "name": "CMU",
+      "position": "Graduate Research Assistant at Wise Lab",
+      "url": "",
+      "startDate": "2022-8-1",
+      "endDate": "2022-12-15",
+      "summary": "Developed simulated environment of resource prediction on edge with JAX and Reinforcement learning for performance modeling",
+      "highlights": [ 
+        "Skills: JAX · Probablistic Modelling"]
+    },
+    {
+      "name": "AMD",
       "position": "Applied Machine Learning System Architecture Engineering Intern",
       "url": "",
       "startDate": "2023-05-01",
       "endDate": "2023-08-01",
       "summary": "Explored optimal model size and inference latency on AMD’s AI accelerator. Utilized Quantization techniques to achieve significant model size reduction and latency improvements.",
-      "highlights": []
+      "highlights": [
+        "Discovered Quantization Aware Training of an Autoencoder yielded 10x size reduction & reduced latency by 23% within 2% accuracy loss",
+        "Proactive troubleshooting of time critical issues within Vitis AI’s production software stack enabling deployment",
+        "Team: Advanced Technology Group: System Architecture team (Under Radeon Technology Group)",
+        "Skills: C++ · Computer Vision · Deep learning · PyTorch"
+      ]
     },
     {
       "name": "Bosch",
-      "position": "Research Intern",
+      "position": "Accident Research Intern",
       "url": "",
       "startDate": "2021-11-01",
       "endDate": "2022-02-01",
       "summary": "Designed an end-to-end system to predict accident-prone junction areas on Indian roads with 88% accuracy.",
-      "highlights": []
+      "highlights": [
+        "Skills: Data Analysis · Deep Learning"
+      ]
+    },
+    {
+      "name": "Stackfusion",
+      "position": "IoT Embedded and Full-stack Developer",
+      "url": "",
+      "startDate": "2021-02-01",
+      "endDate": "2022-05-01",
+      "summary": "Developed and optimized end-to-end IoT solutions, integrating AI models for real-time data processing and edge computing.",
+      "highlights": [
+        "Engineered data pipelines for edge devices (Jetson Nano) using Gstreamer, NVIDIA Deepstream, and WebRTC to enable real-time video streaming and processing.",
+        "Led the deployment and configuration of IoT devices at ground level, ensuring seamless integration with cloud-based services and user interfaces.",
+        "Developed and fine-tuned Automatic Number Plate Recognition (ANPR) models using OpenCV and TensorFlow for improved accuracy in real-world scenarios."
+      ]
     },
     {
       "name": "Konwert India Motors",
@@ -57,7 +123,7 @@
       "location": "Pittsburgh, USA",
       "url": "",
       "area": "Electrical and Computer Engineering",
-      "studyType": "MSc",
+      "studyType": "Masters in Science",
       "startDate": "2022",
       "endDate": "2023",
       "score": "3.4/4",
@@ -67,8 +133,8 @@
       "institution": "SRM Institute of Science and Technology",
       "location": "Chennai, India",
       "url": "",
-      "area": "Electronics and Communication Engineering",
-      "studyType": "BTech",
+      "area": "Major: Electronics and Communication Engineering, Minor: Computer Science and Engineering",
+      "studyType": "Bachelors in Technology",
       "startDate": "2018",
       "endDate": "2022",
       "score": "9.25/10",
@@ -89,31 +155,16 @@
     {
       "name": "Computer Architectures",
       "level": "Advanced",
-      "keywords": ["CPU (x86, ARM)", "GPU (NVIDIA)", "Qualcomm DSP", "CGRA (AMD AI Engine)"]
+      "keywords": ["CPU (x86, ARM)", "GPU (NVIDIA, AMD)", "Qualcomm DSP", "CGRA (AMD AI Engine)"]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "English, Hindi, Bengali",
       "fluency": "Fluent"
     }
   ],
-  "research": [
-    {
-      "name": "Research Assistant in Catalyst Lab",
-      "summary": "Accelerating LLM inference through the speculative decoding process. Implementing a teacher-student model to propose candidate sequences for the large model to verify. Achieving 2X-3X speedup without altering outputs, by parallelizing token computation.",
-      "highlights": ["Paper submitted on ARxive"]
-    },
-    {
-      "name": "Research Assistant in Catalyst Lab",
-      "summary": "Engineered a compiler system for deep learning graph optimization and op-fusion targeting mobile backends with heterogeneous computer architecture. Implemented a kernel mapping strategy leveraging TVM and TASO, enhancing performance",
-      "highlights": ["Paper submitted on ASPLOS"]
-    },
-    {
-      "name": "Research Assistant in Speed Lab",
-      "summary": "Designed high performant SIMD kernels for Qualcomm heterogeneous multicore CPU for Computer Vision blurring algorithms. Leveraged performance engineering techniques such as instruction pipelining, tiling for efficient data movement, and SIMD ARM Neon. Intrinsics to maximize hardware utilization achieving 17% speedup benchmarked against OpenCV C++ kernelse"
-    }
-  ],
+  
   "projects": [
     {
       "name": "Stress testing and Improved performance of Asymmetric cores of SoC ",
@@ -130,6 +181,22 @@
       "startDate": "",
       "endDate": "",
       "url": ""
+    }
+  ],
+  "research": [
+    {
+      "name": "Research Assistant in Catalyst Lab",
+      "summary": "Accelerating LLM inference through the speculative decoding process. Implementing a teacher-student model to propose candidate sequences for the large model to verify. Achieving 2X-3X speedup without altering outputs, by parallelizing token computation.",
+      "highlights": ["Paper submitted on ARxive"]
+    },
+    {
+      "name": "Research Assistant in Catalyst Lab",
+      "summary": "Engineered a compiler system for deep learning graph optimization and op-fusion targeting mobile backends with heterogeneous computer architecture. Implemented a kernel mapping strategy leveraging TVM and TASO, enhancing performance",
+      "highlights": ["Paper submitted on ASPLOS"]
+    },
+    {
+      "name": "Research Assistant in Speed Lab",
+      "summary": "Designed high performant SIMD kernels for Qualcomm heterogeneous multicore CPU for Computer Vision blurring algorithms. Leveraged performance engineering techniques such as instruction pipelining, tiling for efficient data movement, and SIMD ARM Neon. Intrinsics to maximize hardware utilization achieving 17% speedup benchmarked against OpenCV C++ kernelse"
     }
   ]
 }
