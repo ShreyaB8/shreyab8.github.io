@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "Adding all my cool projects soon",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -44,30 +44,30 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/personal/";
           },
-        },{id: "post-aotriton-vs-triton",
+        },{id: "post-aotriton-and-triton",
       
-        title: "AOTriton vs Triton",
+        title: "AOTriton and Triton",
       
-      description: "an example of a blog post with disqus comments",
+      description: "Delve into the comparative strengths of AOTriton and Triton",
       section: "Posts",
       handler: () => {
         
           window.location.href = "/blog/2025/AO-Triton/";
         
       },
-    },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+    },{id: "projects-accelerating-max-pool-sub-graph",
+          title: 'Accelerating Max-Pool sub-graph',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-swin-vision-transformer-for-edge-device",
+          title: 'Swin-Vision Transformer for edge device',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-memory-fairness-protocol",
+          title: 'Memory Fairness Protocol',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
