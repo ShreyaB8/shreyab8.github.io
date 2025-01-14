@@ -3,7 +3,7 @@
     "name": "Shreyashri Biswas",
     "label": "Electrical and Computer Engineer",
     "image": "",
-    "email": "shreyabw834@gmail.com, shreyashri.biswas@amd.com",
+    "email": "shreyabw834@gmail.com shreyashri.biswas@amd.com",
     "url": "https://shreyab8.github.io",
     "summary": "Passionate about developing efficient AI/ML systems and optimizing computer performance.",
     "location": {
@@ -28,8 +28,12 @@
       "url": "",
       "startDate": "2024-02-19",
       "endDate": "Present",
-      "summary": "Contributing to the advancement of ROCm software by participating in the development and optimization of AI models for GPU computing platforms. Skills: Deep Learning Acceleration · Computer Architecture · Machine Learning Systems",
+      "summary": "Contributing to the advancement of ROCm software by developing and optimization of AI models for GPU.",
       "highlights": [
+        "<b>ROCm GEMM Tuning & Profiling</b>: Tuned GEMM operations (hipBLASLT) for Llama-7b, reducing inference time by ~31%. Optimized Residual kernels and integrated performance profiling, boosting end-to-end model efficiency.",
+        "<b>Performance Optimization for Llama.cpp</b>: Achieved measurable speedups via wavefront-based parallelism, refined memory access patterns, minimized synchronization overhead and rooftop analyses for identifying high-impact kernels and pinpointing non-performant operations",
+        "<b>Cross-GPU Vision Model Profiling</b>: Profiled and improved performance on MI300 vs H100 for vision models, closing the gap from ~61% to ~76%, and generated actionable insights for GEMM and Triton kernel optimization.",
+        "<b>GPU Acceleration & CuPy Contributions</b>: Drove CuPy’s ROCm platform enablement by hipifying NVTX, resolving failing unit tests, and merging major ROCm branches, enhancing GPU support and code reliability.",
         "Skills: Deep Learning Acceleration · Computer Architecture · Machine Learning Systems"
       ]
     },
@@ -138,7 +142,13 @@
       "startDate": "2018",
       "endDate": "2022",
       "score": "9.25/10",
-      "courses": []
+      "courses": [
+        "Best Bachelors Thesis", 
+        "2nd at Github Hackathon", 
+        "10th at Bosch Hackathon", 
+        "Won SIIC projects", 
+        "Published a sponsored patent"
+      ]
     }
   ],
   "skills": [
@@ -170,33 +180,33 @@
       "name": "Stress testing and Improved performance of Asymmetric cores of SoC ",
       "highlights": ["Stress tested the SoC using benchmarks Dhrystone and Linpack. Achieved 6% misprediction rate, 10% L1 miss rate and bottlenecked L2 cache by 45% miss rate", 
                      "Wrote programs with low instruction-level parallelism, multithreaded program with high ILP and a hybrid (both low and high ILP ) program for maximizing the performance-power trade offs of asymmetric cores."],
-      "startDate": "2023-01-01",
-      "endDate": "Present",
+      
       "url": ""
     },
     {
       "name": "Swin-Vision Transformer for edge device",
       "summary": "Optimized vision transformers for edge devices, achieving significant memory and latency savings.",
-      "highlights": [],
-      "startDate": "",
-      "endDate": "",
+      "highlights": [
+      "Linearized self-attention in Transformers for Jetson Nano achieving 14-20% memory and 2-3% latency savings",
+      "Leveraging (q, k, v) low-rank structures, applied LoRa approx. to the self-attention weight matrices and harnessed SVD in attention block for efficient matrix operations allowed optimizing vision transformers saving, 18% GFLOPS with 2% accuracy drop"],
+      
       "url": ""
     }
   ],
-  "research": [
-    {
-      "name": "Research Assistant in Catalyst Lab",
-      "summary": "Accelerating LLM inference through the speculative decoding process. Implementing a teacher-student model to propose candidate sequences for the large model to verify. Achieving 2X-3X speedup without altering outputs, by parallelizing token computation.",
-      "highlights": ["Paper submitted on ARxive"]
-    },
-    {
-      "name": "Research Assistant in Catalyst Lab",
-      "summary": "Engineered a compiler system for deep learning graph optimization and op-fusion targeting mobile backends with heterogeneous computer architecture. Implemented a kernel mapping strategy leveraging TVM and TASO, enhancing performance",
-      "highlights": ["Paper submitted on ASPLOS"]
-    },
-    {
-      "name": "Research Assistant in Speed Lab",
-      "summary": "Designed high performant SIMD kernels for Qualcomm heterogeneous multicore CPU for Computer Vision blurring algorithms. Leveraged performance engineering techniques such as instruction pipelining, tiling for efficient data movement, and SIMD ARM Neon. Intrinsics to maximize hardware utilization achieving 17% speedup benchmarked against OpenCV C++ kernelse"
-    }
+    "research": [
+      {
+        "name": "Research Assistant in Catalyst Lab",
+        "summary": "Accelerating LLM inference through the speculative decoding process. Implementing a teacher-student model to propose candidate sequences for the large model to verify. Achieving 2X-3X speedup without altering outputs, by parallelizing token computation.",
+        "highlights": ["Paper submitted on ARxive"]
+      },
+      {
+        "name": "Research Assistant in Catalyst Lab",
+        "summary": "Engineered a compiler system for deep learning graph optimization and op-fusion targeting mobile backends with heterogeneous computer architecture. Implemented a kernel mapping strategy leveraging TVM and TASO, enhancing performance",
+        "highlights": ["Paper submitted on ASPLOS"]
+      },
+      {
+        "name": "Research Assistant in Speed Lab",
+        "summary": "Designed high performant SIMD kernels for Qualcomm heterogeneous multicore CPU for Computer Vision blurring algorithms. Leveraged performance engineering techniques such as instruction pipelining, tiling for efficient data movement, and SIMD ARM Neon. Intrinsics to maximize hardware utilization achieving 17% speedup benchmarked against OpenCV C++ kernelse"
+      }
   ]
 }

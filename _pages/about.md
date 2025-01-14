@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>📍 Austin, Texas, USA</p>
     <p>🤝 Consult and Collab <a href="https://calendly.com/shreyabw834/30min?month=2025-01">Calendly</a></p>
+    <p>📝 View my <a href="/assets/pdf/Shreya_CV.pdf" target="_blank">Resume</a></p>
     <p>✉️ shreyashri.biswas@amd.com</p>
     <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
         <img src="/assets/img/1.png" alt="AMD" style="width: 50px; height: 50px;">

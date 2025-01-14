@@ -1,12 +1,12 @@
 ---
 layout: post
-title: AOTriton vs Triton
+title: AOTriton and Triton
 date: 2025-1-6 11:59:00-0400
-description: an example of a blog post with disqus comments
-tags: comments
-categories: sample-posts external-services
-disqus_comments: true
+description: Delve into the comparative strengths of AOTriton and Triton
+tags: AI-Hardware HPC Compilers GPU
+categories: GPU-Programming Performance-Optimization
+disqus_comments: false
 related_posts: false
 ---
 
-This post shows how to add DISQUS comments.
+Coming Soon! Stay Tuned
